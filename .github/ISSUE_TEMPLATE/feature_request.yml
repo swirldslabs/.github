@@ -1,6 +1,5 @@
 name: New Feature
 description: Request a new feature
-title: "<Please write a brief description of the new feature here>"
 labels: ["New Feature", "Pending Triage"]
 body:
   - type: textarea
@@ -8,7 +7,6 @@ body:
     attributes:
       label: Requested Feature
       description: What would you like added?
-      render: markdown
       placeholder: |
         _A clear and concise description of what you want to happen._
 
@@ -20,7 +18,6 @@ body:
     attributes:
       label: Business Need
       description: Why is this needed?
-      render: markdown
       placeholder: |
         _Please provide a clear and concise description of the business need for this feature. This will help us prioritize the feature request._
     validations:
