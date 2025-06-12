@@ -1,6 +1,7 @@
 name: New Feature
 description: Request a new feature
 labels: ["New Feature", "Pending Triage"]
+type: Feature
 body:
   - type: textarea
     id: feature-description
@@ -21,7 +22,7 @@ body:
       placeholder: |
         _Please provide a clear and concise description of the business need for this feature. This will help us prioritize the feature request._
     validations:
-      required: true
+      required: false
   - type: textarea
     id: additional-context
     attributes:

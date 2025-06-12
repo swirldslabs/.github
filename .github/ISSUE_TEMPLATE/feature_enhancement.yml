@@ -1,6 +1,7 @@
 name: Feature Enhancement
 description: Enhance an existing feature
 labels: ["Feature Enhancement", "Pending Triage"]
+type: Feature
 body:
   - type: textarea
     id: target-feature
@@ -28,7 +29,7 @@ body:
       placeholder: |
         _Please provide a clear and concise description of the business need for this enhancement. This will help us prioritize the feature request._
     validations:
-      required: true
+      required: false
   - type: textarea
     id: additional-context
     attributes:
