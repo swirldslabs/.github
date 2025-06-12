@@ -1,6 +1,7 @@
 name: Bug Report
 description: File a bug report
 labels: ["Bug", "Pending Triage"]
+type: Bug
 body:
   - type: input
     id: bom-cli-version
@@ -39,7 +40,7 @@ body:
         3. Scroll down to '....'
         4. See error
     validations:
-      required: true
+      required: false
   - type: textarea
     id: additional-context
     attributes:
